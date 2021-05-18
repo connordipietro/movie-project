@@ -12,6 +12,8 @@ const useMovies = (type) => {
     }
   };
 
+  //test
+  
   const dispatchMovies = (page) => {
     if (type === 'discover') {
       return fetchMovies(page);
