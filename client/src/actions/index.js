@@ -10,7 +10,7 @@ export const fetchMovies = (page = 1) => dispatch => {
     console.log(error);
   });
 };
-
+//test
 export const fetchMovie = (id) => dispatch => {
   axios.get(`https://api.themoviedb.org/3/movie/${id}?api_key=a50dd974dc6bceb5358b37229983facc&include_adult=false&include_video=false`
   ).then(function (response) {
